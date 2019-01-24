@@ -27,11 +27,11 @@ class Test(unittest.TestCase):
     def test_fullpage_screenshot(self):
         print("Prosessing start ...")
         paths = [
-            {"app": "SL", "dir": "/var/www/html/hasil_web/sl/",
+            {"app": "FB", "dir": "/var/www/html/hasil_web/fb/",
              "site": [
-                 {"link": "https://www.seleniumhq.org/", "ket": "SELENIUM"},
-                 {"link": "https://www.seleniumhq.org/download/",
-                  "ket": "DOWNLOAD"}
+                 {"link": "https://www.facebook.com/", "ket": "FACEBOOK"},
+                 {"link": "https://www.facebook.com/Nazalkhamil",
+                  "ket": "PROFILE"}
              ]
              },
             {"app": "PY", "dir": "/var/www/html/hasil_web/py/",

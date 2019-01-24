@@ -27,18 +27,11 @@ class Test(unittest.TestCase):
     def test_fullpage_screenshot(self):
         print("Prosessing start ...")
         paths = [
-            {"app": "SL", "dir": "/var/www/html/hasil_web/sl/",
+            {"app": "IPR", "dir": "/var/www/html/hasil_web/ipr/",
              "site": [
-                 {"link": "https://www.seleniumhq.org/", "ket": "SELENIUM"},
-                 {"link": "https://www.seleniumhq.org/download/",
-                  "ket": "DOWNLOAD"}
-             ]
-             },
-            {"app": "PY", "dir": "/var/www/html/hasil_web/py/",
-             "site": [
-                 {"link": "https://www.python.org/", "ket": "PYTHON"},
-                 {"link": "https://www.python.org/downloads/",
-                  "ket": "DOWNLOAD"}
+                 {"link": "https://www.facebook.com/", "ket": "FACEBOOK"},
+                 {"link": "https://www.facebook.com/Nazalkhamil",
+                  "ket": "PROFILE"}
              ]
              }]
         tgl = datetime.datetime.now().strftime("%Y-%m-%d_%H-%M-%S")
